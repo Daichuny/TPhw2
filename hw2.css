@@ -1,0 +1,150 @@
+/* 
+Name: Dylan Eng 
+Date Created: 06/12/2025
+Date Edited: 06/20/2025
+Version: 1.1
+Description: Homework 2 CSS file
+*/
+
+header {
+    width: 100%;
+    background-color: #fcfdfd;
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #2a78a5 0%, #4cbeeb 100%);
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /*page is at least 100% of the viewport height*/
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+    width: -30%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tdl {
+    text-align: right;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFEEDD;
+    height: 2.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+}
+
+input {
+    text-align: right;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+}
+
+.error {
+    color: red; 
+    font-size: 12px; 
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal; 
+}
+
+.pword-message {
+    text-align: right; 
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: normal;
+    position: relative; 
+    left: 100px; 
+    background: transparent;
+    padding: 10px; 
+    border-spacing: 2px; 
+    border-radius: 20px; 
+    color: red; 
+}
+
+#review {
+    margin-top: 5px; 
+
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 500px; 
+    background-color: rgb(83, 67, 67);
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+}
+
+td.output {
+    width: 500px; 
+    background-color: rgb(83, 67, 67);
+    padding: 10px; 
+    border-spacing: 2px;
+}
